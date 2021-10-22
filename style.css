@@ -1,0 +1,166 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.head{
+    height: 30px;
+    background-color: black;
+    clear: both;
+}
+
+#container-1{
+    width: 100%;
+    display: block;
+    flex-direction: row;
+    float: left;
+ 
+}
+
+#div-custom{
+    width: 20%;
+    float: left;
+
+}
+
+#div-custom-1{
+    width: calc(60% - 2px);
+    float: left;
+    border-left: 1px solid #c7c3c3 ;
+    border-right: 1px solid #c7c3c3;
+}
+
+#div-custom-2{
+    width: 20%;
+    float: left;
+}
+
+.object{
+    height: 50px;
+    width: 100%;
+}
+
+.obj{
+    float: left;
+    margin: 10px;
+    width: calc(100% - 20px);
+    height: 150px;
+    background-color: transparent;
+    border:1px solid #c7c3c3;
+    border-radius: 3px;
+}
+
+.obju{
+    height: 50px;
+    width: 100%;
+    background-color: #c7c3c3;
+    padding: 17px;
+}
+
+.obju>h1{
+    font-size: 16px;
+}
+
+.objd{
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    border-collapse: collapse;
+    
+    
+}
+
+.objd>h1{
+    display: inline-block;
+    padding: 7px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.withborder{
+    border: 1px solid #c7c3c3;
+    border-radius: 1px;
+}
+#hintb{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 40px;
+    background-color: 	#4169E1;
+    border:1px solid #c7c3c3;
+    border-radius: 3px;
+    color: white;
+}
+
+#hintb:hover{
+    background-color: #0F52BA;
+    border-color: black;
+
+}
+#txtbx{
+    float: left;
+    margin: 10px;
+    width: calc(100% - 20px);
+    height: 300px;
+    border: 1px solid #c7c3c3;
+    border-radius: 3px;
+    overflow: scroll;
+}
+
+#npb{
+    margin: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #c7c3c3;
+    border-radius: 3px;
+    float: left;
+}
+
+.np{
+    float: left;
+    margin: 15px;
+    width: calc(50% - 30px);
+    border: 1px solid #c7c3c3;
+    border-radius: 3px;
+    font-size: 15px;
+    text-align: center;
+    color: #c7c3c3;
+    padding: 15px;
+}
+
+#submit{
+    float: left;
+    margin: 15px;
+    margin-bottom: 30px;
+    width: calc(100% - 30px);
+    padding: 10px;
+    font-size: 15px;
+    background-color: #228B22;
+    color: white;
+    border: 1px solid #c7c3c3;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    background-color: #008000;
+    border:1px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+    #div-custom,#div-custom-1,#div-custom-2{
+        width: 100%;
+    }
+    
+    .object{
+        height: 20px;
+    }
+
+    #txtbx{
+        height: 150px;
+    }
+}
